@@ -1,10 +1,10 @@
 <template>
-  <ul class="list-group">
+  <ul class="list-group col-md-4">
     <VideoListItem
       v-for="video in videos"
       v-bind:video="video"
       v-bind:key="video.etag"
-      v-on:videoSelect="onVideoSelect"
+      v-on:video-select="onVideoSelect"
     >
     </VideoListItem>
   </ul>
@@ -29,4 +29,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+ul {
+  padding-top: 10px;
+}
+</style>

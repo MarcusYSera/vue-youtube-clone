@@ -1,24 +1,5 @@
 # udemy-vue
 
-## Project setup
-```
-npm install
-```
+## Followed Udemy Tutorial, Stephen Grider, 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Modified Vue3 Syntax released Sept 18th, Project completed Sept 25th, may be unstable

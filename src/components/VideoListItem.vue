@@ -31,6 +31,7 @@ export default {
 li {
   display: flex;
   cursor: pointer;
+  background-image: linear-gradient(to right, #29323c, #485563);
 }
 li:hover {
   background-color: #eee;

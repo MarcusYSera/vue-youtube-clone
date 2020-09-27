@@ -1,13 +1,14 @@
 <template>
   <div class="container">
-    Hello World
+    <h1>Youtube API</h1>
     <!-- <SearchBar v-on:term-change="onTermChange"></SearchBar> -->
     <SearchBar @term-change="onTermChange"></SearchBar>
-    <div class="row">
+    <div class="row" v-if="videos.length > 1">
       <VideoDetail v-bind:video="selectedVideo"></VideoDetail>
       <!-- <VideoList v-bind:videos="videos"></VideoList> -->
       <VideoList :videos="videos" v-on:video-select="onVideoSelect"></VideoList>
     </div>
+    <h3 v-else class="textPrompt">Please Search for a Video to get Started</h3>
   </div>
 </template>
 
@@ -52,4 +53,18 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.container {
+  padding-top: 10px;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: linear-gradient(#09203f, #537895);
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.textPrompt {
+  text-align: center;
+}
+</style>

@@ -20,6 +20,7 @@ export default {
 <style scoped>
 input {
   width: 75%;
+  color: black;
 }
 div {
   text-align: center;

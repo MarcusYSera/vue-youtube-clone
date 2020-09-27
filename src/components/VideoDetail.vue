@@ -38,5 +38,6 @@ export default {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  background-image: linear-gradient(to right, #29323c, #485563);
 }
 </style>

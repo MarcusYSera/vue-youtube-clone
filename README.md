@@ -1,5 +1,7 @@
-# udemy-vue
+# udemy-vue-youtube-api
 
-## Followed Udemy Tutorial, Stephen Grider, 
+[Hosted Here](https://vue-video-api.firebaseapp.com/)
 
-### Modified Vue3 Syntax released Sept 18th, Project completed Sept 25th, may be unstable
+#### Followed Udemy Tutorial, Stephen Grider, 
+
+#### Modified Vue3 Syntax released Sept 18th, Project completed Sept 25th, may be unstable
